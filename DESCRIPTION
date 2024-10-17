@@ -1,13 +1,14 @@
 Package: rgeyer
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.2.0
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Title: Simulate Geyer's Saturation Process 
+Version: 0.3.0
+Author: Tuomas Rajala
+Maintainer: Tuomas Rajala <tuomas.rajala@iki.fi>
+Description: Simulate Geyer's saturation process, a spatial point process from the Gibbs family with possibly positive interactions between points.
+  Supports multiple scales (step-functions) and multiple types.
+License: MIT
 LazyData: TRUE
 Imports:
     Rcpp (>= 0.12.3)
 LinkingTo: Rcpp
-RoxygenNote: 6.0.1
+RoxygenNote: 7.3.2

@@ -2,86 +2,86 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 ribm_biv_c <- function(theta, r, bbox, iter, x0, dbg, toroidal) {
-    .Call('rgeyer_ribm_biv_c', PACKAGE = 'rgeyer', theta, r, bbox, iter, x0, dbg, toroidal)
+    .Call('_rgeyer_ribm_biv_c', PACKAGE = 'rgeyer', theta, r, bbox, iter, x0, dbg, toroidal)
 }
 
 rrelativestepper_m3_univ_c <- function(theta, r, bbox, iter, x0, dbg, toroidal, trend_im) {
-    .Call('rgeyer_rrelativestepper_m3_univ_c', PACKAGE = 'rgeyer', theta, r, bbox, iter, x0, dbg, toroidal, trend_im)
+    .Call('_rgeyer_rrelativestepper_m3_univ_c', PACKAGE = 'rgeyer', theta, r, bbox, iter, x0, dbg, toroidal, trend_im)
 }
 
 rrelativestepper_univ_c <- function(theta, r, bbox, iter, x0, dbg, toroidal, trend_im) {
-    .Call('rgeyer_rrelativestepper_univ_c', PACKAGE = 'rgeyer', theta, r, bbox, iter, x0, dbg, toroidal, trend_im)
+    .Call('_rgeyer_rrelativestepper_univ_c', PACKAGE = 'rgeyer', theta, r, bbox, iter, x0, dbg, toroidal, trend_im)
 }
 
 rrelativestepper_univ_fixed_c <- function(n, theta, r, bbox, iter, x0, dbg, toroidal, trend_im) {
-    .Call('rgeyer_rrelativestepper_univ_fixed_c', PACKAGE = 'rgeyer', n, theta, r, bbox, iter, x0, dbg, toroidal, trend_im)
+    .Call('_rgeyer_rrelativestepper_univ_fixed_c', PACKAGE = 'rgeyer', n, theta, r, bbox, iter, x0, dbg, toroidal, trend_im)
 }
 
 rstepper_biv_c <- function(theta, r, bbox, iter, x0, dbg, toroidal) {
-    .Call('rgeyer_rstepper_biv_c', PACKAGE = 'rgeyer', theta, r, bbox, iter, x0, dbg, toroidal)
+    .Call('_rgeyer_rstepper_biv_c', PACKAGE = 'rgeyer', theta, r, bbox, iter, x0, dbg, toroidal)
 }
 
 rstepper_multi_c <- function(theta0, theta1_list, theta2_list, bbox, iter, x0, dbg, toroidal, trend_ims) {
-    .Call('rgeyer_rstepper_multi_c', PACKAGE = 'rgeyer', theta0, theta1_list, theta2_list, bbox, iter, x0, dbg, toroidal, trend_ims)
+    .Call('_rgeyer_rstepper_multi_c', PACKAGE = 'rgeyer', theta0, theta1_list, theta2_list, bbox, iter, x0, dbg, toroidal, trend_ims)
 }
 
 rstepper_multi_fixed_c <- function(theta1_list, theta2_list, bbox, iter, x0, dbg, toroidal, trend_ims) {
-    .Call('rgeyer_rstepper_multi_fixed_c', PACKAGE = 'rgeyer', theta1_list, theta2_list, bbox, iter, x0, dbg, toroidal, trend_ims)
+    .Call('_rgeyer_rstepper_multi_fixed_c', PACKAGE = 'rgeyer', theta1_list, theta2_list, bbox, iter, x0, dbg, toroidal, trend_ims)
 }
 
 rstepper_univ_c <- function(theta, r, sat, bbox, iter, x0, dbg, toroidal, trend_im) {
-    .Call('rgeyer_rstepper_univ_c', PACKAGE = 'rgeyer', theta, r, sat, bbox, iter, x0, dbg, toroidal, trend_im)
+    .Call('_rgeyer_rstepper_univ_c', PACKAGE = 'rgeyer', theta, r, sat, bbox, iter, x0, dbg, toroidal, trend_im)
 }
 
 rstepper_univ_fixed_c <- function(n, theta, r, sat, bbox, iter, x0, dbg, toroidal, trend_im) {
-    .Call('rgeyer_rstepper_univ_fixed_c', PACKAGE = 'rgeyer', n, theta, r, sat, bbox, iter, x0, dbg, toroidal, trend_im)
-}
-
-rtest_classes_biv_c <- function(theta, r, bbox, iter, x0, dbg, toroidal) {
-    .Call('rgeyer_rtest_classes_biv_c', PACKAGE = 'rgeyer', theta, r, bbox, iter, x0, dbg, toroidal)
+    .Call('_rgeyer_rstepper_univ_fixed_c', PACKAGE = 'rgeyer', n, theta, r, sat, bbox, iter, x0, dbg, toroidal, trend_im)
 }
 
 rtest_classes_c <- function(theta, r, bbox, iter, x0, dbg, toroidal) {
-    .Call('rgeyer_rtest_classes_c', PACKAGE = 'rgeyer', theta, r, bbox, iter, x0, dbg, toroidal)
+    .Call('_rgeyer_rtest_classes_c', PACKAGE = 'rgeyer', theta, r, bbox, iter, x0, dbg, toroidal)
+}
+
+rtest_classes_biv_c <- function(theta, r, bbox, iter, x0, dbg, toroidal) {
+    .Call('_rgeyer_rtest_classes_biv_c', PACKAGE = 'rgeyer', theta, r, bbox, iter, x0, dbg, toroidal)
 }
 
 rstepper_biv_components_c <- function(from, to, r, sat, bbox, dbg, toroidal) {
-    .Call('rgeyer_rstepper_biv_components_c', PACKAGE = 'rgeyer', from, to, r, sat, bbox, dbg, toroidal)
+    .Call('_rgeyer_rstepper_biv_components_c', PACKAGE = 'rgeyer', from, to, r, sat, bbox, dbg, toroidal)
 }
 
 rstepper_biv_components_at_data_c <- function(from, r, sat, bbox, dbg, toroidal) {
-    .Call('rgeyer_rstepper_biv_components_at_data_c', PACKAGE = 'rgeyer', from, r, sat, bbox, dbg, toroidal)
+    .Call('_rgeyer_rstepper_biv_components_at_data_c', PACKAGE = 'rgeyer', from, r, sat, bbox, dbg, toroidal)
 }
 
 rstepper_components_c <- function(from, to, r, sat, bbox, dbg, toroidal) {
-    .Call('rgeyer_rstepper_components_c', PACKAGE = 'rgeyer', from, to, r, sat, bbox, dbg, toroidal)
+    .Call('_rgeyer_rstepper_components_c', PACKAGE = 'rgeyer', from, to, r, sat, bbox, dbg, toroidal)
 }
 
 rstepper_components_at_data_c <- function(from, r, sat, bbox, dbg, toroidal) {
-    .Call('rgeyer_rstepper_components_at_data_c', PACKAGE = 'rgeyer', from, r, sat, bbox, dbg, toroidal)
+    .Call('_rgeyer_rstepper_components_at_data_c', PACKAGE = 'rgeyer', from, r, sat, bbox, dbg, toroidal)
 }
 
 rstepper_multi_log_papangelou_c <- function(theta1_list, theta2_list, from, to, bbox, dbg, toroidal) {
-    .Call('rgeyer_rstepper_multi_log_papangelou_c', PACKAGE = 'rgeyer', theta1_list, theta2_list, from, to, bbox, dbg, toroidal)
+    .Call('_rgeyer_rstepper_multi_log_papangelou_c', PACKAGE = 'rgeyer', theta1_list, theta2_list, from, to, bbox, dbg, toroidal)
 }
 
 rstepper_multi_log_papangelou_grid_c <- function(theta1_list, theta2_list, from, to, types, bbox, dbg, toroidal) {
-    .Call('rgeyer_rstepper_multi_log_papangelou_grid_c', PACKAGE = 'rgeyer', theta1_list, theta2_list, from, to, types, bbox, dbg, toroidal)
+    .Call('_rgeyer_rstepper_multi_log_papangelou_grid_c', PACKAGE = 'rgeyer', theta1_list, theta2_list, from, to, types, bbox, dbg, toroidal)
 }
 
 rstepper_multi_log_papangelou_at_data_c <- function(theta1_list, theta2_list, from, bbox, dbg, toroidal) {
-    .Call('rgeyer_rstepper_multi_log_papangelou_at_data_c', PACKAGE = 'rgeyer', theta1_list, theta2_list, from, bbox, dbg, toroidal)
+    .Call('_rgeyer_rstepper_multi_log_papangelou_at_data_c', PACKAGE = 'rgeyer', theta1_list, theta2_list, from, bbox, dbg, toroidal)
 }
 
 rstepper_log_papangelou_c <- function(from, to, theta, r, sat, bbox, dbg, toroidal) {
-    .Call('rgeyer_rstepper_log_papangelou_c', PACKAGE = 'rgeyer', from, to, theta, r, sat, bbox, dbg, toroidal)
-}
-
-rtest_graph_c <- function(x0, bbox, r) {
-    .Call('rgeyer_rtest_graph_c', PACKAGE = 'rgeyer', x0, bbox, r)
+    .Call('_rgeyer_rstepper_log_papangelou_c', PACKAGE = 'rgeyer', from, to, theta, r, sat, bbox, dbg, toroidal)
 }
 
 rtest_im_c <- function(im, x) {
-    .Call('rgeyer_rtest_im_c', PACKAGE = 'rgeyer', im, x)
+    .Call('_rgeyer_rtest_im_c', PACKAGE = 'rgeyer', im, x)
+}
+
+rtest_graph_c <- function(x0, bbox, r) {
+    .Call('_rgeyer_rtest_graph_c', PACKAGE = 'rgeyer', x0, bbox, r)
 }
 
